@@ -42,6 +42,7 @@ function App() {
   return (
     <main className="bg-dark vh-100 text-white">
       <Container>
+        {createNewTask("Bañar")}
         <TaskCreator createNewTask={createNewTask} />
           <TaskTable
             tasks={taskItems}
